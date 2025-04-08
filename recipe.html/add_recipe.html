@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe page</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <H1> Recipe Submission Form</H1>
+    <hr>
+  <form action="">
+<strong> Recipe Name :</strong>
+<input type="text" required>
+<br>
+<strong> Ingredients :</strong>
+<br>
+<textarea cols="110" rows="10" placeholder="Enter the recipe" required></textarea>
+<br> 
+<strong> Cooking Instructions :</strong>
+<br>
+<textarea cols="110" rows="10" placeholder="write Instructions" required></textarea>
+<br>
+<strong> Image URL   :</strong>
+<input type="file" required>
+<br>
+<strong> Recipe Category </strong>
+<input type="text" list="List" required>
+<datalist id="List">
+    <option>See food</option>
+    <option> Snack</option>
+    <option> Dessert</option>
+    <option> Vegan</option>
+</datalist>
+<br>
+<button> Submit </button>
+  </form>  
+</body>
+</html>
